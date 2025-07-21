@@ -17,6 +17,15 @@ The application is fully containerized and deployed on Hugging Face Spaces. You 
 > *(Note: The free tier Space may go to sleep after a period of inactivity. The first load may take up to 60 seconds to wake the container.)*
 ---
 
+## 📹 Demo Video
+
+Please find a short video demonstrating the project's full functionality here:
+
+**➡️ [https://drive.google.com/file/d/1XA8Mk85Q1hJv-CecHXAV-JsvMEIVPgX3/view?usp=drive_link](https://drive.google.com/file/d/1XA8Mk85Q1hJv-CecHXAV-JsvMEIVPgX3/view?usp=drive_link) ⬅️**
+
+> *(Note: The free tier Space may go to sleep after a period of inactivity. The first load may take up to 60 seconds to wake the container.)*
+---
+
 ## ✨ Key Features
 
 - **Intelligent Agentic Router:** Uses a LangChain agent to analyze user queries and route them intelligently to the appropriate backend (graph or vector).

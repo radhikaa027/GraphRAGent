@@ -29,6 +29,20 @@ The application is fully containerized and deployed on Hugging Face Spaces. You 
 
 ---
 
+## 📊 Data Source
+
+The primary data source for this project is Microsoft Corporation's annual 10-K filing for the fiscal year ended June 30, 2024. This document was sourced directly from the U.S. Securities and Exchange Commission's (SEC) EDGAR database.
+
+*   **Filing:** Form 10-K (Annual Report)
+*   **Company:** Microsoft Corporation (MSFT)
+*   **Direct Link to Filing:** [SEC EDGAR Archives](https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm)
+
+This document was chosen for its rich, unstructured text, containing numerous entities (executives, products, companies) and relationships (acquisitions, partnerships) that are ideal for demonstrating the capabilities of a hybrid Graph and Vector RAG system.
+
+For convenience and reproducibility, the processed PDF version of this filing (`Microsoft-10K.pdf`) is included in this repository.
+
+---
+
 ## 🏛️ Architecture
 
 The system has two main pipelines:
@@ -73,8 +87,8 @@ The system has two main pipelines:
 
 #### Step A: Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName 
+git clone https://github.com/radhikaa027/GraphRAGent.git
+cd GraphRAGent 
 ```
 
 #### Step B: Set Up Neo4j Database
